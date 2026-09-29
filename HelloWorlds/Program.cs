@@ -12,6 +12,7 @@ namespace HelloWorlds
         {
             Console.WriteLine("Hello Worlds, it has been days since we last got a signal and we need help");
             Console.WriteLine("Please send help, we are running out of supplies and we need to get out of here");
+            string userName = Console.ReadLine();
         }
     }
 }
